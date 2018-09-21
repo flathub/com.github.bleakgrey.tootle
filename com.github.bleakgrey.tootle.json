@@ -29,6 +29,10 @@
                 "type": "archive",
                 "url": "https://github.com/bleakgrey/tootle/archive/0.1.5.tar.gz",
                 "sha256": "77b441df19b4d9f885b95510712f25b5e6719a27cdb527831e03212063df88d1"
+            },
+            {
+                "type": "patch",
+                "path": "native-file-chooser.patch"
             }]
         }
     ]
