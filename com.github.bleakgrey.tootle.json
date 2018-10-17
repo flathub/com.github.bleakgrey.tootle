@@ -1,15 +1,11 @@
 {
     "app-id": "com.github.bleakgrey.tootle",
-    "base": "io.elementary.Loki.BaseApp",
-    "base-version": "stable",
+    "base": "io.elementary.BaseApp",
+    "base-version": "juno",
     "runtime": "org.freedesktop.Platform",
     "sdk": "org.freedesktop.Sdk",
-    "runtime-version": "1.6",
+    "runtime-version": "18.08",
     "command": "com.github.bleakgrey.tootle",
-    "build-options": {
-        "cflags": "-O2",
-        "cxxflags": "-O2"
-    },
     "finish-args": [
         / * X11 + XShm * /
         "--share=ipc", "--socket=x11",
