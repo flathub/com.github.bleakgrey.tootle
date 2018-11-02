@@ -23,8 +23,8 @@
             "config-opts": ["--buildtype=release"],
             "sources": [{
                 "type": "archive",
-                "url": "https://github.com/bleakgrey/tootle/archive/0.1.5.tar.gz",
-                "sha256": "77b441df19b4d9f885b95510712f25b5e6719a27cdb527831e03212063df88d1"
+                "url": "https://github.com/bleakgrey/tootle/archive/0.2.0.tar.gz",
+                "sha256": "e83c4a0539bf7b4b9d2b81d036ee0e8a69564b11c70f77ded5091955a89d2737"
             },{
                 "type": "patch",
                 "path": "elementary-theme.patch"

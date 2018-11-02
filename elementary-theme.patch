@@ -1,8 +1,10 @@
---- a/src/Application.vala	2018-06-21 01:13:01.000000000 +0200
-+++ b/src/Application.vala	2018-10-18 13:12:29.755920341 +0200
-@@ -52,6 +52,8 @@
-                 return;
-
+diff --git a/src/Application.vala b/src/Application.vala
+index 7e4ee06..d93ddda 100644
+--- a/src/Application.vala
++++ b/src/Application.vala
+@@ -94,6 +94,8 @@ namespace Tootle {
+             }
+             
              debug ("Creating new window");
 +            Gtk.Settings.get_default().set_property("gtk-theme-name", "elementary");
 +            Gtk.Settings.get_default().set_property("gtk-icon-theme-name", "elementary");
