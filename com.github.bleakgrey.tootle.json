@@ -14,7 +14,8 @@
         / * dconf * /
         "--filesystem=xdg-run/dconf", "--filesystem=~/.config/dconf:ro",
         "--talk-name=ca.desrt.dconf", "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
-        "--share=network"
+        "--share=network",
+        "--env=GTK_THEME=elementary"
     ],
     "modules": [
         {
@@ -25,9 +26,6 @@
                 "type": "archive",
                 "url": "https://github.com/bleakgrey/tootle/archive/0.2.0.tar.gz",
                 "sha256": "e83c4a0539bf7b4b9d2b81d036ee0e8a69564b11c70f77ded5091955a89d2737"
-            },{
-                "type": "patch",
-                "path": "elementary-theme.patch"
             }]
         }
     ]
