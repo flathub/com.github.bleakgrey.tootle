@@ -27,6 +27,9 @@
             },{
                 "type": "patch",
                 "path": "elementary-theme.patch"
+            },{
+                "type": "patch",
+                "path": "native_dialog.patch"
             }]
         }
     ]
