@@ -1,0 +1,28 @@
+--- a/src/Widgets/AttachmentBox.vala	2018-11-02 20:16:12.000000000 +0100
++++ b/src/Widgets/AttachmentBox.vala	2019-10-11 20:30:00.097778664 +0200
+@@ -37,14 +37,12 @@
+         filter.add_mime_type ("video/webm");
+         filter.add_mime_type ("video/mp4");
+         
+-        var chooser = new Gtk.FileChooserDialog (
++        var chooser = new Gtk.FileChooserNative (
+             _("Select media files to add"),
+             null,
+             Gtk.FileChooserAction.OPEN,
+-            _("_Cancel"),
+-            Gtk.ResponseType.CANCEL,
+             _("_Open"),
+-            Gtk.ResponseType.ACCEPT);
++            _("_Cancel"));
+         
+         chooser.select_multiple = true;
+         chooser.set_filter (filter);
+@@ -56,7 +54,7 @@
+                 box.pack_start (widget, false, false, 6);
+             }
+         }
+-        chooser.close ();
++        chooser.destroy ();
+     }
+     
+     public string get_uri_array () {
