@@ -8,11 +8,7 @@
     "--share=network",
     "--share=ipc",
     "--socket=fallback-x11",
-    "--socket=wayland",
-    "--filesystem=xdg-run/dconf",
-    "--filesystem=~/.config/dconf:ro",
-    "--talk-name=ca.desrt.dconf",
-    "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+    "--socket=wayland"
   ],
   "cleanup": [
     "/include",
@@ -49,8 +45,8 @@
       "buildsystem": "meson",
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/bleakgrey/tootle/archive/v1.0-alpha1.zip",
-        "sha256": "a75518cd3fd54d370bd4e148a50565d824c9307267346e713db5146ccd4b200e"
+        "url": "https://github.com/bleakgrey/tootle/archive/1.0-alpha2.zip",
+        "sha256": "1082f9ac06161a81035b1ba09309209ccf8665071afab9c432e3793ae8a4905b"
       }]
     }
 
