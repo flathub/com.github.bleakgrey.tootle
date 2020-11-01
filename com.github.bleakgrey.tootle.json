@@ -2,7 +2,7 @@
   "app-id": "com.github.bleakgrey.tootle",
   "runtime": "org.gnome.Platform",
   "sdk": "org.gnome.Sdk",
-  "runtime-version": "3.36",
+  "runtime-version": "3.38",
   "command": "com.github.bleakgrey.tootle",
   "finish-args": [
     "--share=network",
@@ -34,8 +34,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://gitlab.gnome.org/GNOME/libhandy/-/archive/1.0.0/libhandy-1.0.0.tar",
-          "sha256": "09de6ddc34f2b37836da47f9042d141cef3832180524f30fc8f38fa61f04a2c9"
+          "url": "https://gitlab.gnome.org/GNOME/libhandy/-/archive/1.0.1/libhandy-1.0.1.tar",
+          "sha256": "86da467c3723c81fc6f1105945141cea1e9698a6bb3075637bfb58b2cbfeccd0"
         }
       ]
     },
