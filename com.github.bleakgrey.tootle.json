@@ -45,8 +45,8 @@
       "buildsystem": "meson",
       "sources": [{
         "type": "archive",
-        "url": "https://github.com/bleakgrey/tootle/archive/1.0-alpha2.zip",
-        "sha256": "1082f9ac06161a81035b1ba09309209ccf8665071afab9c432e3793ae8a4905b"
+        "url": "https://github.com/bleakgrey/tootle/archive/1.0.zip",
+        "sha256": "2a398aaddc22a70948bb03d6eb5e64a7ee1f5c63679315939ba47f7938001532"
       }]
     }
 
