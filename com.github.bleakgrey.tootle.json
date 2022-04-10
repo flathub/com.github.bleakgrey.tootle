@@ -2,7 +2,7 @@
   "app-id": "com.github.bleakgrey.tootle",
   "runtime": "org.gnome.Platform",
   "sdk": "org.gnome.Sdk",
-  "runtime-version": "40",
+  "runtime-version": "42",
   "command": "com.github.bleakgrey.tootle",
   "finish-args": [
     "--share=network",
@@ -23,23 +23,6 @@
     "*.a"
   ],
   "modules": [
-    {
-      "name": "libhandy",
-      "buildsystem": "meson",
-      "builddir": true,
-      "config-opts": [
-        "-Dexamples=false",
-        "-Dtests=false",
-        "-Dglade_catalog=disabled"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://gitlab.gnome.org/GNOME/libhandy/-/archive/1.0.1/libhandy-1.0.1.tar",
-          "sha256": "86da467c3723c81fc6f1105945141cea1e9698a6bb3075637bfb58b2cbfeccd0"
-        }
-      ]
-    },
     {
       "name": "tootle",
       "builddir": true,
