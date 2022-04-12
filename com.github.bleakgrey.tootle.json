@@ -2,7 +2,7 @@
   "app-id": "com.github.bleakgrey.tootle",
   "runtime": "org.gnome.Platform",
   "sdk": "org.gnome.Sdk",
-  "runtime-version": "40",
+  "runtime-version": "42",
   "command": "com.github.bleakgrey.tootle",
   "finish-args": [
     "--share=network",
