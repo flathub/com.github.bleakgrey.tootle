@@ -27,12 +27,25 @@
       "name": "tootle",
       "builddir": true,
       "buildsystem": "meson",
-      "sources": [{
-        "type": "archive",
-        "url": "https://github.com/bleakgrey/tootle/archive/1.0.zip",
-        "sha256": "2a398aaddc22a70948bb03d6eb5e64a7ee1f5c63679315939ba47f7938001532"
-      }]
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/bleakgrey/tootle/archive/1.0.zip",
+          "sha256": "2a398aaddc22a70948bb03d6eb5e64a7ee1f5c63679315939ba47f7938001532"
+        },
+        {
+          "type": "patch",
+          "url": "https://patch-diff.githubusercontent.com/raw/bleakgrey/tootle/pull/322.patch"
+        },
+        {
+          "type": "patch",
+          "url": "https://patch-diff.githubusercontent.com/raw/bleakgrey/tootle/pull/339.patch"
+        },
+        {
+          "type": "patch",
+          "url": "https://patch-diff.githubusercontent.com/raw/bleakgrey/tootle/pull/346.patch"
+        }
+      ]
     }
-
   ]
 }
