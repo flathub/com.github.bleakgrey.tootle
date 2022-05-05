@@ -27,12 +27,25 @@
       "name": "tootle",
       "builddir": true,
       "buildsystem": "meson",
-      "sources": [{
-        "type": "archive",
-        "url": "https://github.com/bleakgrey/tootle/archive/1.0.zip",
-        "sha256": "2a398aaddc22a70948bb03d6eb5e64a7ee1f5c63679315939ba47f7938001532"
-      }]
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/bleakgrey/tootle/archive/1.0.zip",
+          "sha256": "2a398aaddc22a70948bb03d6eb5e64a7ee1f5c63679315939ba47f7938001532"
+        },
+        {
+          "type": "patch",
+          "path": "Use-reason_phrase-instead-of-get_phrase.patch"
+        },
+        {
+          "type": "patch",
+          "path": "Adhere-to-GLib.Object-naming-conventions.patch"
+        },
+        {
+          "type": "patch",
+          "path": "Application-make-app_entries-private.patch"
+        }
+      ]
     }
-
   ]
 }
