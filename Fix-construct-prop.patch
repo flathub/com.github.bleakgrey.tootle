@@ -26,7 +26,7 @@ index 3e2fe54..41ed71f 100644
  
          header_icon.visible = header_label.visible = true;
 diff --git a/src/Widgets/Status.vala b/src/Widgets/Status.vala
-index ef51340..763f2ea 100644
+index ef51340..ce1c951 100644
 --- a/src/Widgets/Status.vala
 +++ b/src/Widgets/Status.vala
 @@ -5,7 +5,7 @@ using Gdk;
@@ -47,6 +47,15 @@ index ef51340..763f2ea 100644
  			if (status.reblog != null)
  				kind = API.NotificationType.REBLOG_REMOTE_USER;
  		}
+@@ -164,7 +164,7 @@ public class Tootle.Widgets.Status : ListBoxRow {
+ 		menu_button.clicked.connect (open_menu);
+ 	}
+ 
+-	public Status (owned API.Status status, API.NotificationType? kind = null) {
++	public Status (owned API.Status status, API.NotificationType kind = API.NotificationType.NONE) {
+ 		Object (
+ 			status: status,
+ 			kind: kind
 @@ -180,8 +180,8 @@ public class Tootle.Widgets.Status : ListBoxRow {
  	}
  
